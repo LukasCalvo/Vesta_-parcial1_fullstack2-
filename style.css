@@ -1,4 +1,47 @@
 body {
-    background-color: #fae3a5;
-    color: #500cb6;
+    background-color: #df7c2b;
+    color: #000000;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+li:last-child {
+    margin-bottom: 0;
+}
+
+.oculto {
+    display: none;
+}
+
+#menu-btn {
+    border:transparent;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 10px;
+    position: fixed;
+    left: 10px;
+    top: 10px;
+}
+
+#lista {
+    position: fixed;
+    top: 90px;
+    left: 15px;
+}
+
+#menu-btn:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+#menu-btn:active {
+    background-color: rgba(255, 255, 255, 0.2);
 }

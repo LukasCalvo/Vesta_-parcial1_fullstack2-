@@ -2,18 +2,20 @@
 <html lang="es">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Vesta</title>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <header>
-        <h1>Vesta</h1>
+            <nav>
+                <button id="menu-btn"><img src="assets/img/menu.svg" alt="menu" id="menu-icon" height="60" width="60"></button>
+                <ul id="lista" class="oculto">
+                    <li><a href="/." id="home-btn"><img src="assets/img/house.svg" alt="Pagina Principal" id="home-icon" height="60" width="60"></a></li>
+                    <li><a href="catalogo.html" id="store-btn"><img src="assets/img/store.svg" id="store-icon" height="60" width="60"></a></li>
+                </ul>
+            </nav>
         </header>
-        <nav>
-        <ul>
-            <li><a href="index.html">Página Principal</a></li>
-            <li><a href="catalogo.html">Cátalogo</a></li>
-        </ul>
-        </nav>
+        <script src="script.js"></script>
     </body>
 </html>
